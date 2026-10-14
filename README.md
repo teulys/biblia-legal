@@ -17,31 +17,49 @@ páginas **y** el formulario *Data safety* de Play / *App Privacy* de App Store.
 - Correo de contacto usado en las cuatro páginas: **teulys@gmail.com** (ya aplicado).
 - Confirmar la **fecha de entrada en vigor** (actualmente 14/10/2026).
 
-## Hosting gratuito
+## Hosting gratuito (repo público dedicado)
 
-### Opción recomendada: GitHub Pages
+El repo del monorepo es **privado** y GitHub Pages necesita un repo público (o plan Enterprise), así que
+este sitio se publica desde un **repo público dedicado** que contiene solo esta carpeta. Las páginas de
+políticas deben ser públicas de todos modos, así que lo único que se expone es este contenido.
 
-1. Subir este repo (la carpeta `legal/`) a GitHub.
-2. Repo → **Settings → Pages** → *Source*: `Deploy from a branch` → rama `main` → carpeta `/legal`.
-3. URLs resultantes (HTTPS automático, gratis):
-   - Latina: `https://<usuario>.github.io/<repo>/biblia_latina/` y `.../biblia_latina/terms.html`
-   - Ave Maria: `https://<usuario>.github.io/<repo>/biblia_ave_maria/` y `.../biblia_ave_maria/terms.html`
-4. Opcional: dominio propio añadiendo un archivo `CNAME`.
+### 1. Crear el repo público
 
-### Alternativa: Firebase Hosting (ya se usa Firebase)
+Crea en GitHub un repo **público y vacío** (sin README ni licencia), por ejemplo `biblia-legal`.
+
+### 2. Publicar esta carpeta en ese repo
+
+Desde la raíz del monorepo:
 
 ```bash
-npm i -g firebase-tools
-firebase login
-firebase init hosting      # public dir: legal
-firebase deploy
+git remote add legal git@github.com:teulys/biblia-legal.git   # una sola vez
+git subtree push --prefix=legal legal main
 ```
 
-Queda en `https://<proyecto>.web.app/biblia_latina/`, etc. (plan Spark gratuito).
+### 3. Activar GitHub Pages
 
-### Otras gratis
+En el repo nuevo: **Settings → Pages → Deploy from a branch → `main` → `/ (root)`**.
 
-Netlify Drop (arrastrar la carpeta → URL `*.netlify.app`), Cloudflare Pages, Vercel, GitLab Pages.
+### URLs resultantes
+
+Con el repo llamado `biblia-legal` (HTTPS automático, gratis):
+
+- Índice del sitio: `https://teulys.github.io/biblia-legal/`
+- Latina: `https://teulys.github.io/biblia-legal/biblia_latina/` y `.../biblia_latina/terms.html`
+- Ave Maria: `https://teulys.github.io/biblia-legal/biblia_ave_maria/` y `.../biblia_ave_maria/terms.html`
+
+### Actualizar el sitio tras cualquier cambio en `legal/`
+
+```bash
+git subtree push --prefix=legal legal main
+```
+
+### Alternativas sin repo público
+
+- **Firebase Hosting** (ya se usa Firebase): `firebase init hosting` con `public` = `legal` y
+  `firebase deploy` → `https://<proyecto>.web.app/...` (plan Spark gratuito).
+- **Netlify / Cloudflare Pages / Vercel**: sus planes gratis despliegan desde repos **privados**.
+- **Netlify Drop**: arrastrar la carpeta `legal/` y obtienes una URL `*.netlify.app`.
 
 ## Checklist de tiendas
 
