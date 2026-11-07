@@ -24,6 +24,31 @@ Play detecta los SDK de anuncios y el permiso `AD_ID` automáticamente, así que
 
 **Yes**
 
+> Is all of the user data collected by your app encrypted in transit?
+
+**Yes** — todas las conexiones usan HTTPS y WebSocket sobre TLS.
+
+> Which of the following methods of account creation does your app support?
+
+**OAuth** — el acceso es con "Iniciar sesión con Google"; no hay usuario ni contraseña propios.
+No marcar "My app does not allow users to create an account": al iniciar sesión se crea un perfil
+de usuario en Firebase (`/users/{googleUserId}`).
+
+> Add a link that users can use to request that their account and associated data is deleted
+> (Delete account URL)
+
+`https://<usuario>.github.io/<repo>/biblia_ave_maria/delete-account.html`
+
+La página ya está creada en `legal/biblia_ave_maria/delete-account.html` (y su equivalente
+`legal/biblia_latina/delete-account.html`). Incluye los pasos, los datos que se eliminan y los que
+se conservan, y el plazo de 30 días.
+
+> Do you provide a way for users to request that some or all of their data is deleted, without
+> requiring them to delete their account? (Optional)
+
+**Yes** — los favoritos se pueden eliminar dentro de la app (deslizando el elemento), y la página de
+eliminación explica cómo solicitar el borrado total por correo sin cerrar la cuenta de Google.
+
 ## Paso 3 — Data types
 
 Marcar exactamente estos cuatro tipos:

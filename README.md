@@ -1,12 +1,17 @@
 # Políticas legales (por app)
 
-Páginas estáticas de **Privacidad** y **Términos** para cada app del monorepo. Cada una es
-autocontenida (HTML + CSS + un `show(lang)` de JS) y bilingüe: **inglés + el idioma nativo de la Biblia**.
+Páginas estáticas de **Privacidad**, **Términos** y **Eliminación de cuenta** para cada app del
+monorepo. Cada una es autocontenida (HTML + CSS + un `show(lang)` de JS) y bilingüe:
+**inglés + el idioma nativo de la Biblia**.
 
-| App | Privacidad | Términos | Idiomas |
-| --- | --- | --- | --- |
-| Biblia Latina (`com.biblia.latina`) | `biblia_latina/index.html` | `biblia_latina/terms.html` | Español + English |
-| Bíblia Ave Maria (`com.biblia.avemaria`) | `biblia_ave_maria/index.html` | `biblia_ave_maria/terms.html` | Português + English |
+| App | Privacidad | Términos | Eliminación de cuenta | Idiomas |
+| --- | --- | --- | --- | --- |
+| Biblia Latina (`com.biblia.latina`) | `biblia_latina/index.html` | `biblia_latina/terms.html` | `biblia_latina/delete-account.html` | Español + English |
+| Bíblia Ave Maria (`com.biblia.avemaria`) | `biblia_ave_maria/index.html` | `biblia_ave_maria/terms.html` | `biblia_ave_maria/delete-account.html` | Português + English |
+
+La página de **eliminación de cuenta** es la URL que Play exige en el formulario *Data safety* cuando
+la app permite crear cuenta (aquí vía OAuth de Google). Ver `data-safety.md` para el detalle de las
+respuestas del formulario.
 
 El contenido se mantiene en sincronía con lo que realmente recopila la app (Google Sign-In, Firebase
 Realtime Database, AdMob y almacenamiento local). Si cambia la recopilación de datos, actualizar estas
