@@ -1,8 +1,8 @@
 # Formulario "Seguridad de los datos" (Play Console)
 
 Guía de respuestas para el formulario **Data safety** de Google Play. Aplica igual a
-`biblia_latina` y `biblia_ave_maria`: comparten el mismo código (`biblia_core`) y los mismos
-permisos en el manifest de release.
+`biblia_latina`, `biblia_reina_valera` y `biblia_ave_maria`: comparten el mismo código
+(`biblia_core`) y los mismos permisos en el manifest de release.
 
 ## Por qué Google marcó "We found issues with your Data safety form"
 
@@ -37,11 +37,11 @@ de usuario en Firebase (`/users/{googleUserId}`).
 > Add a link that users can use to request that their account and associated data is deleted
 > (Delete account URL)
 
-`https://<usuario>.github.io/<repo>/biblia_ave_maria/delete-account.html`
+Para Reina Valera: `https://teulys.github.io/biblia-legal/biblia_reina_valera/delete-account.html`
 
-La página ya está creada en `legal/biblia_ave_maria/delete-account.html` (y su equivalente
-`legal/biblia_latina/delete-account.html`). Incluye los pasos, los datos que se eliminan y los que
-se conservan, y el plazo de 30 días.
+Las páginas ya están creadas en `legal/biblia_reina_valera/delete-account.html`,
+`legal/biblia_latina/delete-account.html` y `legal/biblia_ave_maria/delete-account.html`.
+Incluyen los pasos, los datos que se eliminan, los que se conservan y el plazo de 30 días.
 
 > Do you provide a way for users to request that some or all of their data is deleted, without
 > requiring them to delete their account? (Optional)
@@ -87,7 +87,7 @@ Notas:
 
 - **App content → Ads**: *"Contains ads"* → **Yes**.
 - **App content → Privacy policy**: URL pública (por ejemplo
-  `https://teulys.github.io/biblia-legal/biblia_ave_maria/`).
+  `https://teulys.github.io/biblia-legal/biblia_reina_valera/`).
 - **Target audience**: mayores de 13 años.
 - La política de privacidad (`legal/<app>/index.html`) ya describe nombre, correo, foto, `device_id`,
   favoritos y publicidad de AdMob, así que estas respuestas son consistentes con ella.
