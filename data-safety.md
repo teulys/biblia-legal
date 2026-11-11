@@ -1,8 +1,8 @@
 # Formulario "Seguridad de los datos" (Play Console)
 
 Guía de respuestas para el formulario **Data safety** de Google Play. Aplica igual a
-`biblia_latina`, `biblia_reina_valera`, `biblia_reina_valera_1960` y `biblia_ave_maria`:
-comparten el mismo código
+`biblia_latina`, `biblia_reina_valera`, `biblia_reina_valera_1960`,
+`biblia_latinoamericana_de_hoy` y `biblia_ave_maria`: comparten el mismo código
 (`biblia_core`) y los mismos permisos en el manifest de release.
 
 ## Por qué Google marcó "We found issues with your Data safety form"
@@ -40,11 +40,12 @@ de usuario en Firebase (`/users/{googleUserId}`).
 
 Para Reina Valera: `https://teulys.github.io/biblia-legal/biblia_reina_valera/delete-account.html`
 Para Reina Valera 1960: `https://teulys.github.io/biblia-legal/biblia_reina_valera_1960/delete-account.html`
+Para Latinoamericana de Hoy: `https://teulys.github.io/biblia-legal/biblia_latinoamericana_de_hoy/delete-account.html`
 
-Las páginas ya están creadas en `legal/biblia_reina_valera_1960/delete-account.html`,
-`legal/biblia_reina_valera/delete-account.html`, `legal/biblia_latina/delete-account.html` y
-`legal/biblia_ave_maria/delete-account.html`. Incluyen los pasos, los datos que se eliminan, los
-que se conservan y el plazo de 30 días.
+Las páginas ya están creadas en `legal/biblia_latinoamericana_de_hoy/delete-account.html`,
+`legal/biblia_reina_valera_1960/delete-account.html`, `legal/biblia_reina_valera/delete-account.html`,
+`legal/biblia_latina/delete-account.html` y `legal/biblia_ave_maria/delete-account.html`.
+Incluyen los pasos, los datos que se eliminan, los que se conservan y el plazo de 30 días.
 
 > Do you provide a way for users to request that some or all of their data is deleted, without
 > requiring them to delete their account? (Optional)
@@ -90,7 +91,7 @@ Notas:
 
 - **App content → Ads**: *"Contains ads"* → **Yes**.
 - **App content → Privacy policy**: URL pública (por ejemplo
-  `https://teulys.github.io/biblia-legal/biblia_reina_valera_1960/`).
+  `https://teulys.github.io/biblia-legal/biblia_latinoamericana_de_hoy/`).
 - **Target audience**: mayores de 13 años.
 - La política de privacidad (`legal/<app>/index.html`) ya describe nombre, correo, foto, `device_id`,
   favoritos y publicidad de AdMob, así que estas respuestas son consistentes con ella.
