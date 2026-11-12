@@ -13,6 +13,7 @@ monorepo. Cada una es autocontenida (HTML + CSS + un `show(lang)` de JS) y bilin
 | Biblia Palabra de Dios para Todos (`tjsoft.biblia.palabradedios`) | `biblia_palabra_de_dios_para_todos/index.html` | `biblia_palabra_de_dios_para_todos/terms.html` | `biblia_palabra_de_dios_para_todos/delete-account.html` | Español + English |
 | Biblia Hispanoamericana BLPH (`com.tjsof.biblia.biblialapalabrahisp`) | `biblia_hispanoamericana_blph/index.html` | `biblia_hispanoamericana_blph/terms.html` | `biblia_hispanoamericana_blph/delete-account.html` | Español + English |
 | Biblia Dios Habla Hoy (`com.teulys.bibliadioshablahoy`) | `biblia_dios_habla_hoy/index.html` | `biblia_dios_habla_hoy/terms.html` | `biblia_dios_habla_hoy/delete-account.html` | Español + English |
+| Biblia de las Américas (`com.tjsof.biblia.lasamericas`) | `biblia_de_las_americas/index.html` | `biblia_de_las_americas/terms.html` | `biblia_de_las_americas/delete-account.html` | Español + English |
 | Bíblia Ave Maria (`com.biblia.avemaria`) | `biblia_ave_maria/index.html` | `biblia_ave_maria/terms.html` | `biblia_ave_maria/delete-account.html` | Português + English |
 
 La página de **eliminación de cuenta** es la URL que Play exige en el formulario *Data safety* cuando
@@ -26,7 +27,7 @@ páginas **y** el formulario *Data safety* de Play / *App Privacy* de App Store.
 ## Pendientes antes de publicar
 
 - Correo de contacto usado en las páginas: **teulys@gmail.com** (ya aplicado).
-- Fecha de entrada en vigor: Latina y Ave Maria 14/10/2026; Reina Valera, Reina Valera 1960, Latinoamericana de Hoy, Palabra de Dios para Todos, Hispanoamericana BLPH y Dios Habla Hoy 10/11/2026.
+- Fecha de entrada en vigor: Latina y Ave Maria 14/10/2026; Reina Valera, Reina Valera 1960, Latinoamericana de Hoy, Palabra de Dios para Todos, Hispanoamericana BLPH, Dios Habla Hoy y Biblia de las Américas 10/11/2026.
 
 ## Hosting gratuito (repo público dedicado)
 
@@ -63,6 +64,7 @@ Con el repo llamado `biblia-legal` (HTTPS automático, gratis):
 - Palabra de Dios para Todos: `https://teulys.github.io/biblia-legal/biblia_palabra_de_dios_para_todos/` y `.../biblia_palabra_de_dios_para_todos/terms.html`
 - Hispanoamericana BLPH: `https://teulys.github.io/biblia-legal/biblia_hispanoamericana_blph/` y `.../biblia_hispanoamericana_blph/terms.html`
 - Dios Habla Hoy: `https://teulys.github.io/biblia-legal/biblia_dios_habla_hoy/` y `.../biblia_dios_habla_hoy/terms.html`
+- Biblia de las Américas: `https://teulys.github.io/biblia-legal/biblia_de_las_americas/` y `.../biblia_de_las_americas/terms.html`
 - Ave Maria: `https://teulys.github.io/biblia-legal/biblia_ave_maria/` y `.../biblia_ave_maria/terms.html`
 
 ### Actualizar el sitio tras cualquier cambio en `legal/`
