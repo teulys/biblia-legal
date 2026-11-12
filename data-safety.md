@@ -3,7 +3,8 @@
 Guía de respuestas para el formulario **Data safety** de Google Play. Aplica igual a
 `biblia_latina`, `biblia_reina_valera`, `biblia_reina_valera_1960`,
 `biblia_latinoamericana_de_hoy`, `biblia_palabra_de_dios_para_todos`,
-`biblia_hispanoamericana_blph` y `biblia_ave_maria`: comparten el mismo código
+`biblia_hispanoamericana_blph`, `biblia_dios_habla_hoy` y `biblia_ave_maria`:
+comparten el mismo código
 (`biblia_core`) y los mismos permisos en el manifest de release.
 
 ## Por qué Google marcó "We found issues with your Data safety form"
@@ -44,8 +45,10 @@ Para Reina Valera 1960: `https://teulys.github.io/biblia-legal/biblia_reina_vale
 Para Latinoamericana de Hoy: `https://teulys.github.io/biblia-legal/biblia_latinoamericana_de_hoy/delete-account.html`
 Para Palabra de Dios para Todos: `https://teulys.github.io/biblia-legal/biblia_palabra_de_dios_para_todos/delete-account.html`
 Para Hispanoamericana BLPH: `https://teulys.github.io/biblia-legal/biblia_hispanoamericana_blph/delete-account.html`
+Para Dios Habla Hoy: `https://teulys.github.io/biblia-legal/biblia_dios_habla_hoy/delete-account.html`
 
-Las páginas ya están creadas en `legal/biblia_hispanoamericana_blph/delete-account.html`,
+Las páginas ya están creadas en `legal/biblia_dios_habla_hoy/delete-account.html`,
+`legal/biblia_hispanoamericana_blph/delete-account.html`,
 `legal/biblia_palabra_de_dios_para_todos/delete-account.html`,
 `legal/biblia_latinoamericana_de_hoy/delete-account.html`,
 `legal/biblia_reina_valera_1960/delete-account.html`, `legal/biblia_reina_valera/delete-account.html`,
@@ -96,7 +99,7 @@ Notas:
 
 - **App content → Ads**: *"Contains ads"* → **Yes**.
 - **App content → Privacy policy**: URL pública (por ejemplo
-  `https://teulys.github.io/biblia-legal/biblia_hispanoamericana_blph/`).
+  `https://teulys.github.io/biblia-legal/biblia_dios_habla_hoy/`).
 - **Target audience**: mayores de 13 años.
 - La política de privacidad (`legal/<app>/index.html`) ya describe nombre, correo, foto, `device_id`,
   favoritos y publicidad de AdMob, así que estas respuestas son consistentes con ella.
