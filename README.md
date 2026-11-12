@@ -16,6 +16,7 @@ monorepo. Cada una es autocontenida (HTML + CSS + un `show(lang)` de JS) y bilin
 | Biblia de las Américas (`com.tjsof.biblia.lasamericas`) | `biblia_de_las_americas/index.html` | `biblia_de_las_americas/terms.html` | `biblia_de_las_americas/delete-account.html` | Español + English |
 | Nueva Biblia al Día (`com.biblia.nuevabibliaalda`) | `nueva_biblia_al_dia/index.html` | `nueva_biblia_al_dia/terms.html` | `nueva_biblia_al_dia/delete-account.html` | Español + English |
 | Biblia Versión Internacional (`tjsoft.com.bibliaversioninternacional`) | `biblia_version_internacional/index.html` | `biblia_version_internacional/terms.html` | `biblia_version_internacional/delete-account.html` | Español + English |
+| Biblia La Palabra (`com.tjsof.biblia.biblialapalabra`) | `biblia_la_palabra/index.html` | `biblia_la_palabra/terms.html` | `biblia_la_palabra/delete-account.html` | Español + English |
 | Bíblia Ave Maria (`com.biblia.avemaria`) | `biblia_ave_maria/index.html` | `biblia_ave_maria/terms.html` | `biblia_ave_maria/delete-account.html` | Português + English |
 
 La página de **eliminación de cuenta** es la URL que Play exige en el formulario *Data safety* cuando
@@ -29,7 +30,7 @@ páginas **y** el formulario *Data safety* de Play / *App Privacy* de App Store.
 ## Pendientes antes de publicar
 
 - Correo de contacto usado en las páginas: **teulys@gmail.com** (ya aplicado).
-- Fecha de entrada en vigor: Latina y Ave Maria 14/10/2026; Reina Valera, Reina Valera 1960, Latinoamericana de Hoy, Palabra de Dios para Todos, Hispanoamericana BLPH, Dios Habla Hoy, Biblia de las Américas, Nueva Biblia al Día y Biblia Versión Internacional 10/11/2026.
+- Fecha de entrada en vigor: Latina y Ave Maria 14/10/2026; Reina Valera, Reina Valera 1960, Latinoamericana de Hoy, Palabra de Dios para Todos, Hispanoamericana BLPH, Dios Habla Hoy, Biblia de las Américas, Nueva Biblia al Día, Biblia Versión Internacional y Biblia La Palabra 10/11/2026.
 
 ## Hosting gratuito (repo público dedicado)
 
@@ -69,6 +70,7 @@ Con el repo llamado `biblia-legal` (HTTPS automático, gratis):
 - Biblia de las Américas: `https://teulys.github.io/biblia-legal/biblia_de_las_americas/` y `.../biblia_de_las_americas/terms.html`
 - Nueva Biblia al Día: `https://teulys.github.io/biblia-legal/nueva_biblia_al_dia/` y `.../nueva_biblia_al_dia/terms.html`
 - Biblia Versión Internacional: `https://teulys.github.io/biblia-legal/biblia_version_internacional/` y `.../biblia_version_internacional/terms.html`
+- Biblia La Palabra: `https://teulys.github.io/biblia-legal/biblia_la_palabra/` y `.../biblia_la_palabra/terms.html`
 - Ave Maria: `https://teulys.github.io/biblia-legal/biblia_ave_maria/` y `.../biblia_ave_maria/terms.html`
 
 ### Actualizar el sitio tras cualquier cambio en `legal/`
