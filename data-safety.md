@@ -4,9 +4,9 @@ Guía de respuestas para el formulario **Data safety** de Google Play. Aplica ig
 `biblia_latina`, `biblia_reina_valera`, `biblia_reina_valera_1960`,
 `biblia_latinoamericana_de_hoy`, `biblia_palabra_de_dios_para_todos`,
 `biblia_hispanoamericana_blph`, `biblia_dios_habla_hoy`,
-`biblia_de_las_americas`, `nueva_biblia_al_dia` y `biblia_ave_maria`:
-comparten el mismo código (`biblia_core`) y los mismos permisos en el manifest
-de release.
+`biblia_de_las_americas`, `nueva_biblia_al_dia`,
+`biblia_version_internacional` y `biblia_ave_maria`: comparten el mismo código
+(`biblia_core`) y los mismos permisos en el manifest de release.
 
 ## Por qué Google marcó "We found issues with your Data safety form"
 
@@ -49,8 +49,10 @@ Para Hispanoamericana BLPH: `https://teulys.github.io/biblia-legal/biblia_hispan
 Para Dios Habla Hoy: `https://teulys.github.io/biblia-legal/biblia_dios_habla_hoy/delete-account.html`
 Para Biblia de las Américas: `https://teulys.github.io/biblia-legal/biblia_de_las_americas/delete-account.html`
 Para Nueva Biblia al Día: `https://teulys.github.io/biblia-legal/nueva_biblia_al_dia/delete-account.html`
+Para Biblia Versión Internacional: `https://teulys.github.io/biblia-legal/biblia_version_internacional/delete-account.html`
 
-Las páginas ya están creadas en `legal/nueva_biblia_al_dia/delete-account.html`,
+Las páginas ya están creadas en `legal/biblia_version_internacional/delete-account.html`,
+`legal/nueva_biblia_al_dia/delete-account.html`,
 `legal/biblia_de_las_americas/delete-account.html`,
 `legal/biblia_dios_habla_hoy/delete-account.html`,
 `legal/biblia_hispanoamericana_blph/delete-account.html`,
@@ -104,7 +106,7 @@ Notas:
 
 - **App content → Ads**: *"Contains ads"* → **Yes**.
 - **App content → Privacy policy**: URL pública (por ejemplo
-  `https://teulys.github.io/biblia-legal/nueva_biblia_al_dia/`).
+  `https://teulys.github.io/biblia-legal/biblia_version_internacional/`).
 - **Target audience**: mayores de 13 años.
 - La política de privacidad (`legal/<app>/index.html`) ya describe nombre, correo, foto, `device_id`,
   favoritos y publicidad de AdMob, así que estas respuestas son consistentes con ella.
